@@ -89,3 +89,8 @@ exports.forgetPassword = (req, res) => {
       }
     });
 };
+
+exports.test = (req,res) =>{
+  console.log("asds")
+  res.send("asd")
+}
